@@ -49,9 +49,9 @@ The Student Management System is a simple, CLI-based application that allows use
 
 ## Project Structure
 
-- `Main.java`: Entry point of the application
+- `app.java`: Entry point of the application
 - `Student.java`: Defines the Student object and its properties
-- `StudentManager.java`: Handles core logic for managing students
+- `StudentSystem.java`: Handles core logic for managing students
 - Other utility or helper classes as needed
 
 ## Notes
