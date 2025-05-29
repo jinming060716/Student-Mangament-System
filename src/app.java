@@ -13,8 +13,6 @@ public class app {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String code = getCode();
-        System.out.println(code);
         while (true) {
             System.out.println("welcome to student management system");
             System.out.println("choose your option");
