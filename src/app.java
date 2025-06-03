@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class app {
     static ArrayList<user> list = new ArrayList<>();
+    private static final String Login = "1";
+    private static final String Register = "2";
+    private static final String forgetPassword = "3";
+    private static final String Exit = "4";
 
     static {
         //添加一些用户信息
@@ -23,10 +27,10 @@ public class app {
             String choose = sc.next();
 
             switch (choose) {
-                case "1" -> login(list);
-                case "2" -> register(list);
-                case "3" -> forgetPassword(list);
-                case "4" -> {
+                case Login -> login(list);
+                case Register -> register(list);
+                case forgetPassword -> forgetPassword(list);
+                case Exit -> {
                     System.exit(0);
                 }
                 default -> System.out.println("error option");
