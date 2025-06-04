@@ -115,10 +115,7 @@ public class StudentSystem {
         System.out.println("Enter new address");
         String newAddress = sc.next();
         stu.setAddress(newAddress);
-<<<<<<< HEAD
-    
-=======
->>>>>>> parent of b609613 (update)
+
 
         System.out.println("student information updated successfully!");
     }
