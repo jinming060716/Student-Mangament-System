@@ -115,6 +115,7 @@ public class StudentSystem {
         System.out.println("Enter new address");
         String newAddress = sc.next();
         stu.setAddress(newAddress);
+        //wwww
 
         System.out.println("student information updated successfully!");
     }
